@@ -6,12 +6,11 @@ Please make sure you are running at least PHP 5.6 and preferably PHP 7.1+.
 
 Install Notes
 -------------
-There are three extra dependencies.
+There are two dependencies.
 
 
     - Babel (Optional: add the list of context keys to Babel's system settings.)
     - LangRouter (Optional: Set the default context in the system setting.)
-    - Login
 
 The installation process will set up the entire site to a working state ready to input language content and then launch.
 The process is as follows:
