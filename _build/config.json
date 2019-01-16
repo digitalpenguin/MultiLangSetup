@@ -1,0 +1,56 @@
+{
+    "name": "MultiLangSetup",
+    "lowCaseName": "multilangsetup",
+    "description": "Configures a fresh MODX install into a multi-language website with context switching.",
+    "author": "Murray",
+    "version": "0.1.0",
+    "package":{
+        
+        
+        "menus": [],
+        
+        
+
+        "elements": {
+        
+            
+            
+            "snippets": [],
+            
+            
+        
+            
+            "chunks": [
+            
+            ],
+            
+        
+            
+            "templates": []
+            
+        
+        },
+
+        "systemSettings": []
+    },
+
+    "dependencies": [{
+      "name": "babel",
+      "version": ">=3.0.0"
+    },{
+      "name": "langrouter",
+      "version": ">=1.3.0"
+    }],
+
+    "build": {
+      "resolver": {
+        "after": [
+          "resolve.setupoptions.php"
+        ]
+      },
+      "setupOptions":{
+        "source": "setup.options.php"
+      }
+    }
+    
+}
