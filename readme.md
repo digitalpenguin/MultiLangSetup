@@ -1,12 +1,21 @@
 MultiLangSetup
 ==============
 A multi-language configuration Extra for MODX 2.
+Simply install the package from the MODX package manager on a blank MODX install. This will automatically configure a multi-lingual website instantly.
+
 
 Please make sure you are running at least PHP 5.6 and preferably PHP 7.1+.
 
 WARNING: Only install this package on a new blank MODX installation. Otherwise you WILL lose data in your home resource and BaseTemplate.
 
 Once MultiLangSetup has been installed, it is recommended to uninstall and remove it from the package manager. All changes will have already been made during its installation.
+
+
+Background
+==========
+Most websites developed at Digital Penguin these days are multi-lingual and this package was built to save a lot of time manually configuring MODX each time a new job begins.
+An added bonus is that for newcomers to MODX, multi-context setups with routing can be a bit daunting, so using this package you can skip the setup and get on with it.
+
 
 Install Notes
 -------------
@@ -42,5 +51,3 @@ The process is as follows:
         - site_url
         - cultureKey
     - Generate Babel links for each resource between contexts.
-    
-    

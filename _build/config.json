@@ -3,7 +3,7 @@
     "lowCaseName": "multilangsetup",
     "description": "Configures a fresh MODX install into a multi-language website with context switching.",
     "author": "Murray",
-    "version": "0.1.0",
+    "version": "1.0.0-beta",
     "package":{
         
         
